@@ -1,17 +1,17 @@
-def egcd(a, b):
-    if a == 0:
-        return (b, 0, 1)
+def egcd(x, y):
+    if x == 0:
+        return (y, 0, 1)
     else:
-        g, y, x = egcd(b % a, a)
-        return (g, x - (b // a) * y, y)
+        g, b, a = egcd(y % x, x)
+        return (g, a - (y // x) * b, b)
 
 
 def modinv(coprime, phi_n):
-    g, x, y = egcd(coprime, phi_n)
+    g, a, b = egcd(coprime, phi_n)
     if g != 1:
         raise Exception('modular inverse does not exist')
     else:
-        return x % phi_n
+        return a % phi_n
 
 
 encrypt():
