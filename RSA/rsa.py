@@ -1,13 +1,18 @@
+encrypt():
+
+decrypt():
+  
+  
+
 print("Select the option from the below :\n")
 print("1. Encryption\n")
 print("2. Decryption\n")
 x = input()
 
-
-if(x==1)
+if x==1:
   encrypt()
-else if(x==2)
+elif x==2:
   decrypt()
-else
+else:
   print("Enter a valid number!")
 
