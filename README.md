@@ -9,3 +9,6 @@
 7. [PyVigenere](https://www.geeksforgeeks.org/vigenere-cipher/)
 8. [RSA](https://www.geeksforgeeks.org/rsa-algorithm-cryptography/)
 9. [Transposition](https://en.wikipedia.org/wiki/Transposition_cipher)
+   1. [Columnar_Transposition](http://practicalcryptography.com/ciphers/columnar-transposition-cipher/)
+   2. [Rail_Fence_Cipher](https://www.101computing.net/the-rail-fence-cipher/)
+   3. [Scytale](https://en.wikipedia.org/wiki/Scytale)
